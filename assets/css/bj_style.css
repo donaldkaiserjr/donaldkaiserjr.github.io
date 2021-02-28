@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsla(45, 100%, 51%, 0.5);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+} 
+
+
+
+
+.container-1 {
+  /*border: 1px solid black;*/
+  width: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border: 4px double  #292b2c;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  /*border-left: 0 solid #00ff99;*/
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  
+}
+
+/* .container-1:hover { */
+  /*border: 1px solid black;*/
+  /* padding-right: 0.5rem; */
+  /* border-right: 0.5rem solid; } */
+  
+
+
+.flex-blackjack-row-1, 
+.flex-blackjack-row-2, .flex-blackjack-row-3{
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;  /*this is default */
+  justify-content: space-around;
+}
+
+
+.flex-blackjack-row-1, .flex-blackjack-row-2  {
+  background-image: url("/static/images/poker-table.jpg");
+  color: #ffffff;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1px solid #ffc107;
+  padding: 10px;
+  flex: 1;  /* This splits the You and Dealer with equal importance*/
+  text-align: center;;
+  height: 355px;
+}
+
+.flex-blackjack-row-2 button {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+table, th, td{
+ padding: 5px;
+ border: 3px solid #ffc107;
+}
+
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/rps.css" />
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+    <div class="container-3">
+        <h2>Click Rock, Paper, or Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="images/stone.png" height="150" width="150" alt="" onclick=rpsGame(this)>
+            <img id="paper" src="images/cartoon-paper.png" height="150" width="150" alt="" onclick=rpsGame(this)>
+            <img id="scissors" src="images/cartoon-scissors.png" height="150" width="150" alt="" onclick=rpsGame(this)>
+        </div>
+        <button class="btn btn-danger" id="reset-button" onclick=resetRps()>RESET</button>
+    </div>
+
+    <script src="assets/js/rockpaperscissors.js"></script>
+</body>
+
+</html>
